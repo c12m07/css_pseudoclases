@@ -132,10 +132,10 @@ VII. Inserte la imagen "smiley.gif" antes y después de cualquier elemento `<p>`
 ```
 <style>
 p::before {
-  tuCodigoAca: url('smiley.gif');
+  content: url('smiley.gif');
 }
 p::after {
-  tuCodigoAca: url('smiley.gif');
+  content: url('smiley.gif');
 }
 </style>
 
